@@ -117,8 +117,8 @@ public class ChartColor extends Color {
     public static final Color LIGHT_MAGENTA = new Color(0xFF, 0x40, 0xFF);
 
     /** A very light magenta color. */
-    //TODO Fix LongVariable
-    public static final Color VERY_LIGHT_MAGENTA = new Color(0xFF, 0x80, 0xFF);
+
+    public static final Color V_LIGHT_MAGENTA = new Color(0xFF, 0x80, 0xFF);
 
     /**
      * Creates a Color with an opaque sRGB with red, green and blue values in

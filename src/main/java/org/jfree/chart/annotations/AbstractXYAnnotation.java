@@ -150,6 +150,7 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
         if (info == null) {
             return;
         }
+        //TODO FIX LawofDemeter
         EntityCollection entities = info.getOwner().getEntityCollection();
         if (entities == null) {
             return;

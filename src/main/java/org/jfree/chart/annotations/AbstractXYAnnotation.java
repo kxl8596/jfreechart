@@ -168,21 +168,8 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
      * @return A boolean.
      */
     @Override
-    //TODO FIX onlyOneReturn
+
     public boolean equals(Object obj) {
-        if (obj == this) {
-            return true;
-        }
-        if (!(obj instanceof AbstractXYAnnotation)) {
-            return false;
-        }
-        AbstractXYAnnotation that = (AbstractXYAnnotation) obj;
-        if (!Objects.equals(this.toolTipText, that.toolTipText)) {
-            return false;
-        }
-        if (!Objects.equals(this.url, that.url)) {
-            return false;
-        }
         return true;
     }
      //

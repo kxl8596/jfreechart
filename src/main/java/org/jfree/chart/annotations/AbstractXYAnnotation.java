@@ -166,6 +166,7 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
      * @return A boolean.
      */
     @Override
+    //TODO FIX onlyOneReturn
     public boolean equals(Object obj) {
         if (obj == this) {
             return true;

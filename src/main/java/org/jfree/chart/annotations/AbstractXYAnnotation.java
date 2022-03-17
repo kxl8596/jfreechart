@@ -130,8 +130,7 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
      *              entity information.
      */
     @Override
-    //TODO Fix ShortVariable
-    public abstract void draw(Graphics2D g2, XYPlot plot, Rectangle2D dataArea,
+    public abstract void draw(Graphics2D grid2, XYPlot plot, Rectangle2D dataArea,
             ValueAxis domainAxis, ValueAxis rangeAxis, int rendererIndex,
             PlotRenderingInfo info);
 

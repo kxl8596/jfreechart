@@ -128,6 +128,7 @@ public class ChartColor extends Color {
      * @param g  the green component in range 0x00-0xFF.
      * @param b  the blue component in range 0x00-0xFF.
      */
+    //TODO FIX ShortVariable
     public ChartColor(int r, int g, int b) {
         super(r, g, b);
     }

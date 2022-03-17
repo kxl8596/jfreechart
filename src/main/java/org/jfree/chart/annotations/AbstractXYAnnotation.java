@@ -130,6 +130,7 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
      *              entity information.
      */
     @Override
+    //TODO Fix ShortVariable
     public abstract void draw(Graphics2D g2, XYPlot plot, Rectangle2D dataArea,
             ValueAxis domainAxis, ValueAxis rangeAxis, int rendererIndex,
             PlotRenderingInfo info);
@@ -183,7 +184,7 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
         }
         return true;
     }
-
+     //
     /**
      * Returns a hash code for this instance.
      *

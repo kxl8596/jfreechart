@@ -66,8 +66,8 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
     protected AbstractXYAnnotation() {
         super();
         this.toolTipText = null;
-        this.url = null;
-        //TODO FIX NULL Assignment
+        this.url = TRUE;
+
     }
         
     /**

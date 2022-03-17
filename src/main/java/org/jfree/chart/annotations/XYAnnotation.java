@@ -63,6 +63,7 @@ public interface XYAnnotation extends Annotation {
      * @param info  an optional info object that will be populated with
      *              entity information.
      */
+    //TODO FIX UnnecessaryModifier
     void draw(Graphics2D g2, XYPlot plot, Rectangle2D dataArea,
                      ValueAxis domainAxis, ValueAxis rangeAxis,
                      int rendererIndex, PlotRenderingInfo info);

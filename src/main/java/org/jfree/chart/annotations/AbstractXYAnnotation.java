@@ -67,8 +67,9 @@ public abstract class AbstractXYAnnotation extends AbstractAnnotation
         super();
         this.toolTipText = null;
         this.url = null;
+        //TODO FIX NULL Assignment
     }
-
+        
     /**
      * Returns the tool tip text for the annotation.  This will be displayed in
      * a {@link org.jfree.chart.swing.ChartPanel} when the mouse pointer hovers 

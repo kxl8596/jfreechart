@@ -117,6 +117,7 @@ public class ChartColor extends Color {
     public static final Color LIGHT_MAGENTA = new Color(0xFF, 0x40, 0xFF);
 
     /** A very light magenta color. */
+    //TODO Fix LongVariable
     public static final Color VERY_LIGHT_MAGENTA = new Color(0xFF, 0x80, 0xFF);
 
     /**

@@ -67,5 +67,5 @@ public interface XYAnnotation extends Annotation {
     void draw(Graphics2D g2, XYPlot plot, Rectangle2D dataArea,
                      ValueAxis domainAxis, ValueAxis rangeAxis,
                      int rendererIndex, PlotRenderingInfo info);
-
+    //TODO FIX Short Variable
 }
